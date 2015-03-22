@@ -1,0 +1,25 @@
+body.a {
+  margin: 0;
+
+  .title-bar {
+    background: blue;
+    padding: 1rem;
+
+    h1{
+      background: red;
+      display: inline-block;
+      padding: 1rem;
+      margin: 0;
+    }
+  }
+
+  .content-section {
+    background: lightgrey;
+    width: 80%;
+    margin: auto;
+
+    h1 {
+      margin: 0;
+    }
+  }
+}

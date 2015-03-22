@@ -1,0 +1,146 @@
+html {
+  height: 100%;
+}
+
+body.d {
+  height: 100%;
+
+  .title-bar-container {
+    border-bottom: solid 2px black;
+    overflow: hidden;
+    padding: 0.5rem 0;
+
+    .title-bar {
+      width: 80%;
+      margin: auto;
+      min-width: 500px;
+
+      h1 {
+        border: solid 2px black;
+        border-radius: 5px;
+        text-align: center;
+        display: inline-block;
+        float: left;
+        $size: 40px;
+        width: $size;
+        height: $size;
+        line-height: $size;
+        float: left;
+        margin: 0 1rem 0 0;
+      }
+
+      .search-bar {
+        border: solid 2px black;
+        border-radius: 5px;
+        float: left;
+
+        p {
+          font-weight: bold;
+          float: left;
+          margin: 0;
+          font-size: 1.5rem;
+          padding: 0.4rem 2rem 0.4rem 0.4rem;
+        }
+
+        img {
+          width: 25px;
+          border-left: solid 2px black;
+          padding: 0.4rem;
+          float: right;
+        }
+      }
+
+      .name {
+        border: solid 2px black;
+        border-radius: 5px;
+        float: right;
+        background: lightgrey;
+        padding: 0.3rem;
+
+        img {
+          width: 30px;
+          border: solid 1px black;
+          float: left;
+          margin-right: 0.5rem; 
+        }
+
+        p {
+          float: left;
+          font-weight: bold;
+          margin: 0;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .content {
+    margin: 0 auto;
+    width: 80%;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    min-width: 800px;
+    overflow: hidden;
+    height: 100%;
+
+    .left {
+      width: 30%;
+      min-width: 200px;
+      float: left;
+
+      .box {
+        overflow: hidden;
+        border-bottom: solid 2px black;
+
+        h2, h3 {
+          margin: 0;
+          float: left;
+          font-size: 2rem;
+          padding: 0.5rem;
+        }
+
+        h3 {
+          font-weight: normal;
+        }
+      }
+
+      .search-bar {
+        border: solid 2px black;
+        border-radius: 5px;
+        float: left;
+        margin: 0.5rem;
+        width: 90%;
+
+        p {
+          font-weight: bold;
+          float: left;
+          margin: 0;
+          font-size: 1.5rem;
+          padding: 0.4rem 2rem 0.4rem 0.4rem;
+        }
+
+        img {
+          width: 25px;
+          border-left: solid 2px black;
+          padding: 0.4rem;
+          float: right;
+        }
+      }
+    }
+
+    .right {
+      font-size: 2rem;
+      box-sizing: border-box;
+      border-left: solid 2px black;
+      width: 70%;
+      float: left;
+      height: 100%;
+
+      h4 {
+        margin: 0;
+        padding: 0.5rem;
+        border-bottom: solid 2px black; 
+      }
+    }
+  }
+}
