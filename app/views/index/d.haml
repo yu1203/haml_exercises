@@ -1,20 +1,22 @@
 - @body_classes = "d"
+
 .title-bar-container
   .title-bar
     %h1 f
     .search-bar
-      %p Search Facebook
+      %input{:type=>"text", :placeholder=>"Search Facebook"}
       %img{src: "http://www.iconpng.com/png/ivista2/search.png"}
     .name
       %img{src: "https://4rchiviz4rd.files.wordpress.com/2008/10/keroro-gunso.png"}
       %p LPY
-.content
-  .left
-    .box
-      %h2 Inbox
-      %h3 Other
-    .search-bar
-      %p Search
-      %img{src: "http://www.iconpng.com/png/ivista2/search.png"}
-  .right
-    %h4 Leung Pak Yu
+.content-container
+  .content
+    .left
+      .box
+        %h2 Inbox
+        %h3 Other
+      .search-bar
+        %input{:type=>"text", :placeholder=>"Search"}
+        %img{src: "http://www.iconpng.com/png/ivista2/search.png"}
+    .right
+      %h4 Leung Pak Yu
