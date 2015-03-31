@@ -17,7 +17,7 @@ body.e {
       margin: 0;
       font-size: 1.5rem;
       padding: 0.4rem 2rem 0 0.4rem;
-      border: transparent;
+      border: 0;
     }
 
     img {
@@ -98,12 +98,12 @@ body.e {
       min-width: 800px;
       height: 100%;
 
-      .left {
+      .left-column {
         width: 30%;
         min-width: 200px;
         float: left;
 
-        .box {
+        .box-area {
           overflow: hidden;
           border-bottom: solid 1px grey;
 
@@ -161,6 +161,9 @@ body.e {
 
           p {
             padding: 0.5rem 0 0.5rem 0.5rem; 
+          }
+
+          p.name {
             color: black;
           }
 
@@ -218,7 +221,7 @@ body.e {
                 float: left;
                 width: 85%;
                 padding: 0.5rem 0 5rem 0.5rem;
-                border: transparent;
+                border: 0;
               }
 
               img {
