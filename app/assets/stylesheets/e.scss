@@ -186,6 +186,7 @@ body.e {
         width: 70%;
         float: left;
         height: 100%;
+        position: relative;
 
         h4 {
           margin: 0;
@@ -196,6 +197,8 @@ body.e {
 
         .conversation-box-container {
           padding: 1.5rem;
+          box-sizing: border-box;
+          width: 100%;
           min-width: 534px;
           border-top: solid 1px grey;
           background: #eee;
