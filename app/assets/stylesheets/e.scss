@@ -33,7 +33,6 @@ body.e {
     border-bottom: solid 1px black;
     padding: 1.1rem 2rem;
     height: 72px;
-    min-height: 75px;
     box-sizing: border-box;
 
     .title-bar {
@@ -87,7 +86,6 @@ body.e {
   .content-container {
     padding: 0 2rem;
     height: calc(100% - 72px);
-    border-bottom: solid 1px black;
     box-sizing: border-box;
     
     .content {
@@ -213,6 +211,7 @@ body.e {
             .reply-box {
               border-bottom: solid 1px lightgrey;
               overflow: hidden;
+              position: relative;
 
               input, img {
                 margin: 0;
@@ -221,15 +220,17 @@ body.e {
               input {
                 font-size: 1.5rem;
                 float: left;
-                width: 85%;
+                width: 100%;
                 padding: 0.5rem 0 5rem 0.5rem;
                 border: 0;
               }
 
               img {
                 width: 30px;
-                float: right;
                 padding: 0.5rem;
+                position: absolute;
+                right: 0;
+                top: 0;
               }
             }
 
