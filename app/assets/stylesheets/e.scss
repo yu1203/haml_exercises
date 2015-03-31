@@ -32,7 +32,7 @@ body.e {
     background: darkblue;
     border-bottom: solid 1px black;
     padding: 1.1rem 2rem;
-    height: 10%;
+    height: 72px;
     min-height: 75px;
     box-sizing: border-box;
 
@@ -86,7 +86,7 @@ body.e {
 
   .content-container {
     padding: 0 2rem;
-    height: 90%;
+    height: calc(100% - 72px);
     border-bottom: solid 1px black;
     box-sizing: border-box;
     
@@ -199,7 +199,6 @@ body.e {
           padding: 1.5rem;
           box-sizing: border-box;
           width: 100%;
-          min-width: 534px;
           border-top: solid 1px grey;
           background: #eee;
           position: absolute;
