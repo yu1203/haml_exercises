@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'index/c'
   get 'index/d'
   get 'index/e'
+  get 'index/f'
 end

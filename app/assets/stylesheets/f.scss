@@ -1,0 +1,127 @@
+body.f {
+  height: 100%;
+
+  .title-bar-container {
+    border-bottom: solid 1px black;
+    height: 67px;
+    box-sizing: border-box;
+
+    .title-bar {
+      padding: 0.5rem;
+
+      img {
+        width: 50px;
+        float: left;
+        padding-right: 0.5rem;
+      }
+
+      h1, p {
+        margin: 0;
+        font-size: 2rem;
+        line-height: 50px;
+      }
+
+      h1 {
+        display: inline-block;
+      }
+
+      .title-bar-right {
+        float: right;
+
+        p {
+          display: inline-block;
+          padding-right: 1rem; 
+        }
+
+        .close {
+          float: right;
+          border: solid 1px black;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+
+          h2 {
+            text-align: center;
+            line-height: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    height: calc(100% - 67px);
+
+    img {
+          width: 60px;
+          border: solid 1px black;
+          margin: 1rem;
+          float: left;
+    }
+
+    h3 {
+          margin: 0;
+          margin-top: 1rem; 
+          display: inline-block;
+    }
+
+    .aside {
+      width: 25%;
+      float: left;
+      border-right: solid 1px black;
+      height: 100%;
+      position: relative;
+      box-sizing: border-box;
+
+
+      .current {
+        background: lightgrey;
+      }
+
+      .friend {
+        border-bottom: solid 1px black;
+        overflow: hidden;
+      }
+
+      .about {
+        background: lightgrey;
+        border-top: solid 1px black;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+
+        h4 {
+          font-weight: normal;
+          margin: 1rem 1rem 0 1rem;
+        }
+
+        p {
+          margin: 1rem;
+        }
+
+        p.contact, p.copyright {
+          display: inline-block;
+        }
+
+        p.copyright {
+          float: right;
+        }
+      }
+    }
+
+    .conversation-container {
+
+      .conversation {
+
+        p {
+          text-align: justify;
+        }
+
+        p.time {
+          float: right;
+          padding-right: 1rem; 
+        }
+      }
+    }
+  }
+}
